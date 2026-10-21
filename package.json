@@ -2,6 +2,7 @@
   "name": "dixi-health-report",
   "private": true,
   "version": "0.1.0",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "concurrently -k -n api,web -c cyan,magenta \"tsx watch server/index.ts\" \"vite\"",
